@@ -6,8 +6,8 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Install app dependencies
-COPY server.js /usr/src/app/
+COPY xss_server.js /usr/src/app/
 
 EXPOSE 1234
 
-CMD [ "node", "/usr/src/app/server.js" ]
+CMD [ "node", "/usr/src/app/xss_server.js" ]

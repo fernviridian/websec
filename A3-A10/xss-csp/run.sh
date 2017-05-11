@@ -1,1 +1,1 @@
-docker run -d -p "1234:1234" -p "4321:4321" websec-node-app-2
+docker run --rm -d -p "1234:1234" -p "4321:4321" websec-node-app-2
